@@ -1,3 +1,3 @@
-## Arquitetura de Microserviços
+# Arquitetura de Microserviços
 
-# Serviço REST para gestão de contatos
+### Serviço REST para gestão de contatos
