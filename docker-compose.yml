@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+    container_name: contatos-api
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./app:/code/app
+    working_dir: /code
+    environment:
+      - PYTHONPATH=/code
+    restart: unless-stopped
